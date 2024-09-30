@@ -1,4 +1,8 @@
-#Author: Francisca Salas < fsalas17@alumnos.utalca.cl >
+#Authors:  
+# Francisca Salas Sepulveda < fsalas17 at alumnos.utalca > 
+# Horacio Poblete < hopoblete at utalca  >
+# Sergio David Garcia Schejtman
+# Juan David Figueroa Alegrias < fsalas17@alumnos.utalca.cl >
 
 import pandas as pd 
 import numpy as np 
@@ -305,8 +309,6 @@ def newScore(fileName, dataFrame):
     #New column named Spectroscopical Changes with the sum of the relative values; ignore values when they are '--'
     deltaData['SC'] = deltaData.apply(lambda x: x[x != '--'].sum(), axis=1)
     deltaData.to_excel(fileName[0:-4]+'/'+ 'SC_OutScript.xlsx', engine='openpyxl')
-
-
     
     return deltaData
 
