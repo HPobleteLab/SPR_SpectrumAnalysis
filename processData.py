@@ -2,7 +2,7 @@
 # Francisca Salas Sepulveda < fsalas17 at alumnos.utalca > 
 # Horacio Poblete < hopoblete at utalca  >
 # Sergio David Garcia Schejtman
-# Juan David Figueroa Alegrias < fsalas17@alumnos.utalca.cl >
+# Juan David Figueroa Alegrias 
 
 import pandas as pd 
 import numpy as np 
